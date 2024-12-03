@@ -1,58 +1,49 @@
-/** Mobile First -- 0px --> 566px */
 .header {
+    background-color: blueviolet;
+}
+.main {
     background-color: brown;
 }
+.footer {
+    background-color: orange;
+}
+
+
+/** Mobile First -- 0px --> 566px */
+
 /** 567px --> 767px */
 @media ( min-width: 567px ) {
-    .header {
-        background-color: orange;
-    }
+    
 }
 /** 768px --> 1023px */
 @media ( min-width: 768px ) {
-    .header {
-        background-color: blueviolet;
-    }
+    
 }
 /** 1024px --> 1999px */
 @media ( min-width: 1024px ) {
-    .header {
-        background-color: chocolate;
-    }
+    
 }
 /** 1200px --> 1399px */
 @media ( min-width: 1200px ) {
-    .header {
-        background-color: darkblue;
-    }
+    
 }
 /** 1400px --> 1599px */
 @media ( min-width: 1400px ) {
-    .header {
-        background-color: greenyellow;
-    }
+    
 }
 /** 1600px --> 1919px */
 @media ( min-width: 1600px ) {
-    .header {
-        background-color: grey;
-    }
+    
 }
 /** 1920px --> 2159px */
 @media ( min-width: 1920px ) {
-    .header {
-        background-color: red;
-    }
+    
 }
 /** 2160px --> 2459px */
 @media ( min-width: 2160px ) {
-    .header {
-        background-color: orangered;
-    }
+    
 }
 /** 2160px --> more */
 @media ( min-width: 2160px ) {
-    .header {
-        background-color: black;
-    }
+    
 }
