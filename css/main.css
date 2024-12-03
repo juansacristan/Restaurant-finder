@@ -10,40 +10,74 @@
 
 
 /** Mobile First -- 0px --> 566px */
+.container {
+    border: 1px dotted blue;
+    max-width: 96%;
+    margin: 0 auto;
+    padding: 0 8px;
+    box-sizing: border-box;    
+}
 
 /** 567px --> 767px */
 @media ( min-width: 567px ) {
-    
+    .container {
+        max-width: 540px;
+        padding: 0 16px;
+    }
 }
 /** 768px --> 1023px */
 @media ( min-width: 768px ) {
-    
+    .container {
+        max-width: 720px;
+        padding: 0 24px;
+    }
 }
 /** 1024px --> 1999px */
 @media ( min-width: 1024px ) {
-    
+    .container {
+        max-width: 992px;
+        padding: 0 32px;
+    }
 }
 /** 1200px --> 1399px */
 @media ( min-width: 1200px ) {
-    
+    .container {
+        max-width: 1140px;
+        padding: 0 40px;
+    }
 }
 /** 1400px --> 1599px */
 @media ( min-width: 1400px ) {
-    
+    .container {
+        max-width: 1320px;
+        padding: 0 48px;
+    }
 }
 /** 1600px --> 1919px */
 @media ( min-width: 1600px ) {
-    
+    .container {
+        max-width: 1440px;
+        padding: 0 56px;
+    }
 }
 /** 1920px --> 2159px */
 @media ( min-width: 1920px ) {
-    
+    .container {
+        max-width: 1600px;
+        padding: 0 64px;
+    }
 }
 /** 2160px --> 2459px */
 @media ( min-width: 2160px ) {
-    
+    .container {
+        max-width: 1760px;
+        padding: 0 72px;
+    }
 }
 /** 2160px --> more */
-@media ( min-width: 2160px ) {
-    
+@media ( min-width: 2560px ) {
+    .container {
+        max-width: 1920px;
+        padding: 0 80px;
+    }
 }
