@@ -4,6 +4,16 @@
 .main {
     background-color: brown;
 }
+.filter {
+    background-color: burlywood;
+}
+.main-filter {
+    background-color: lightskyblue;
+}
+.main-content {
+    background-color: cadetblue;
+}
+
 .footer {
     background-color: orange;
 }
@@ -11,11 +21,18 @@
 
 /** Mobile First -- 0px --> 566px */
 .container {
-    border: 1px dotted blue;
+    border: 2px dotted blue;
     max-width: 96%;
     margin: 0 auto;
     padding: 0 8px;
     box-sizing: border-box;    
+}
+.container-fluid {
+    border: 2px dotted yellow;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 /** 567px --> 767px */
