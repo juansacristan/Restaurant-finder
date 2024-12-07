@@ -1,8 +1,27 @@
+/**Define variables para la hoja de estilos**/
+:root{
+    --overall-font-size: 62.5%
+}
+/**Reestablece valor de 1rem a base 10px, es decir: 1rem = 10px**/
+html{
+    font-size: var(--overall-font-size);
+}
+.body{
+    font-size: 1.6rem;
+}
+
 .header {
     background-color: blueviolet;
 }
 .main {
     background-color: brown;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    order: -1;
 }
 .filter {
     background-color: burlywood;
@@ -22,14 +41,14 @@
 /** Mobile First -- 0px --> 566px */
 .container {
     border: 2px dotted blue;
-    max-width: 96%;
+    max-width: 96vw;
     margin: 0 auto;
-    padding: 0 8px;
+    padding: 0 0.8rem;
     box-sizing: border-box;    
 }
 .container-fluid {
     border: 2px dotted yellow;
-    max-width: 100%;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box; 
@@ -38,63 +57,63 @@
 /** 567px --> 767px */
 @media ( min-width: 567px ) {
     .container {
-        max-width: 540px;
-        padding: 0 16px;
+        max-width: 54rem;
+        padding: 0 1.6rem;
     }
 }
 /** 768px --> 1023px */
 @media ( min-width: 768px ) {
     .container {
-        max-width: 720px;
-        padding: 0 24px;
+        max-width: 72rem;
+        padding: 0 2.4rem;
     }
 }
 /** 1024px --> 1999px */
 @media ( min-width: 1024px ) {
     .container {
-        max-width: 992px;
-        padding: 0 32px;
+        max-width: 99.2rem;
+        padding: 0 3.2rem;
     }
 }
 /** 1200px --> 1399px */
 @media ( min-width: 1200px ) {
     .container {
-        max-width: 1140px;
-        padding: 0 40px;
+        max-width: 114rem;
+        padding: 0 4rem;
     }
 }
 /** 1400px --> 1599px */
 @media ( min-width: 1400px ) {
     .container {
-        max-width: 1320px;
-        padding: 0 48px;
+        max-width: 132rem;
+        padding: 0 4.8rem;
     }
 }
 /** 1600px --> 1919px */
 @media ( min-width: 1600px ) {
     .container {
-        max-width: 1440px;
-        padding: 0 56px;
+        max-width: 144rem;
+        padding: 0 5.6rem;
     }
 }
 /** 1920px --> 2159px */
 @media ( min-width: 1920px ) {
     .container {
-        max-width: 1600px;
-        padding: 0 64px;
+        max-width: 160rem;
+        padding: 0 6.4rem;
     }
 }
 /** 2160px --> 2459px */
 @media ( min-width: 2160px ) {
     .container {
-        max-width: 1760px;
-        padding: 0 72px;
+        max-width: 176rem;
+        padding: 0 7.2rem;
     }
 }
 /** 2160px --> more */
 @media ( min-width: 2560px ) {
     .container {
-        max-width: 1920px;
-        padding: 0 80px;
+        max-width: 192rem;
+        padding: 0 8rem;
     }
 }
