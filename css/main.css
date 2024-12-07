@@ -106,6 +106,13 @@ body{
         flex: 1;
         order: initial;
     }
+    .input-search{
+        width: 38.8rem;
+        height: 3rem;
+        padding: 0.8rem 1.8rem;
+        border: 0.7rem;
+        max-width: 100%;
+    }
 }
 /** 1024px --> 1999px */
 @media ( min-width: 1024px ) {
