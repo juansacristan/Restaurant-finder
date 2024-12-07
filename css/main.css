@@ -1,12 +1,13 @@
 /**Define variables para la hoja de estilos**/
 :root{
-    --overall-font-size: 62.5%
+    --overall-font-size: 62.5%;
 }
 /**Reestablece valor de 1rem a base 10px, es decir: 1rem = 10px**/
 html{
     font-size: var(--overall-font-size);
+    box-sizing: border-box;
 }
-.body{
+body{
     font-size: 1.6rem;
 }
 
@@ -15,6 +16,33 @@ html{
 }
 .main {
     background-color: brown;
+}
+.main-banner{
+    position: relative;
+}
+.banner-image {
+    position: relative;
+}
+.banner-search {
+    height: 30.5rem;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-width: 100%;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
+.banner-image img {
+    height: 30.5rem;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100vw;
 }
 .main-wrapper{
     display: flex;
@@ -66,6 +94,17 @@ html{
     .container {
         max-width: 72rem;
         padding: 0 2.4rem;
+    }
+    .main-wrapper{
+        flex-direction: row;
+    }
+    .filter{
+        flex-basis: 28rem;
+        flex-basis: initial;
+    }
+    .main-container{
+        flex: 1;
+        order: initial;
     }
 }
 /** 1024px --> 1999px */
